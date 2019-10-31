@@ -1,0 +1,7 @@
+{
+  "$type": "Comindware.Platform.Contracts.TransferMetadata, Comindware.Platform.Contracts",
+  "Name": "Sales",
+  "Alias": "Sales",
+  "Database": "185e0c03-2369-4c3a-aef9-afdb3148257a",
+  "Version": "3.5.444.0"
+}

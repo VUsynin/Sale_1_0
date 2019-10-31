@@ -1,0 +1,398 @@
+{
+  "$type": "Comindware.Platform.Contracts.RoleWorkspaceConfigurationModel, Comindware.Platform.Contracts",
+  "Name": "Основное",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "RoleWorkspace",
+    "Alias": "workspace0"
+  },
+  "NavigationItems": {
+    "$type": "Comindware.Platform.Contracts.NavigationItemModel[], Comindware.Platform.Contracts",
+    "$values": [
+      {
+        "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+        "Name": "Лид",
+        "Container": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "Undefined"
+        },
+        "Priority": 10,
+        "ItemType": "RecordTemplate",
+        "NavigationType": "SystemNavigation",
+        "ContainerType": "RecordTemplate",
+        "IconClass": "list-alt",
+        "Target": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "RecordTemplate",
+          "Alias": "Lead"
+        },
+        "Severity": "None"
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+        "Name": "Контакт",
+        "Container": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "Undefined"
+        },
+        "Priority": 9,
+        "ItemType": "RecordTemplate",
+        "NavigationType": "SystemNavigation",
+        "ContainerType": "RecordTemplate",
+        "IconClass": "list-alt",
+        "Target": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "RecordTemplate",
+          "Alias": "Contact"
+        },
+        "Severity": "None"
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+        "Name": "Организация",
+        "Container": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "Undefined"
+        },
+        "Priority": 8,
+        "ItemType": "RecordTemplate",
+        "NavigationType": "SystemNavigation",
+        "ContainerType": "RecordTemplate",
+        "IconClass": "list-alt",
+        "Target": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "RecordTemplate",
+          "Alias": "Account"
+        },
+        "Severity": "None"
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+        "Name": "Продукт",
+        "Container": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "Undefined"
+        },
+        "Priority": 7,
+        "ItemType": "RecordTemplate",
+        "NavigationType": "SystemNavigation",
+        "ContainerType": "RecordTemplate",
+        "IconClass": "list-alt",
+        "Target": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "RecordTemplate",
+          "Alias": "Product"
+        },
+        "Severity": "None"
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+        "Name": "Заказ",
+        "Container": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "Undefined"
+        },
+        "Priority": 6,
+        "ItemType": "RecordTemplate",
+        "NavigationType": "SystemNavigation",
+        "ContainerType": "RecordTemplate",
+        "IconClass": "list-alt",
+        "Target": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "RecordTemplate",
+          "Alias": "Order"
+        },
+        "Severity": "None"
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+        "Name": "КП",
+        "Container": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "Undefined"
+        },
+        "Priority": 5,
+        "ItemType": "RecordTemplate",
+        "NavigationType": "SystemNavigation",
+        "ContainerType": "RecordTemplate",
+        "IconClass": "list-alt",
+        "Target": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "RecordTemplate",
+          "Alias": "Quote"
+        },
+        "Severity": "None"
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+        "Name": "Сделка",
+        "Container": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "Undefined"
+        },
+        "Priority": 4,
+        "ItemType": "RecordTemplate",
+        "NavigationType": "SystemNavigation",
+        "ContainerType": "RecordTemplate",
+        "IconClass": "list-alt",
+        "Target": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "RecordTemplate",
+          "Alias": "Deal"
+        },
+        "Severity": "None"
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+        "Name": "Договор",
+        "Container": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "Undefined"
+        },
+        "Priority": 3,
+        "ItemType": "RecordTemplate",
+        "NavigationType": "SystemNavigation",
+        "ContainerType": "RecordTemplate",
+        "IconClass": "list-alt",
+        "Target": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "RecordTemplate",
+          "Alias": "Contract"
+        },
+        "Severity": "None"
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+        "Name": "Кампания",
+        "Container": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "Undefined"
+        },
+        "Priority": 2,
+        "ItemType": "RecordTemplate",
+        "NavigationType": "SystemNavigation",
+        "ContainerType": "RecordTemplate",
+        "IconClass": "list-alt",
+        "Target": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "RecordTemplate",
+          "Alias": "Campaign"
+        },
+        "Severity": "None"
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+        "Name": "Справочники",
+        "Container": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "Undefined"
+        },
+        "Priority": 1,
+        "ItemType": "Group",
+        "NavigationType": "SystemNavigation",
+        "ContainerType": "Group",
+        "IconClass": "clone",
+        "Target": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "Undefined"
+        },
+        "Severity": "None",
+        "ChildrenItems": {
+          "$type": "Comindware.Platform.Contracts.NavigationItemModel[], Comindware.Platform.Contracts",
+          "$values": [
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Тип кампании",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 10,
+              "ItemType": "RecordTemplate",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "RecordTemplate",
+              "IconClass": "list-alt",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "RecordTemplate",
+                "Alias": "CampaignType"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Статус кампании",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 9,
+              "ItemType": "RecordTemplate",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "RecordTemplate",
+              "IconClass": "list-alt",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "RecordTemplate",
+                "Alias": "CampaignStatus"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Тип заказа",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 8,
+              "ItemType": "RecordTemplate",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "RecordTemplate",
+              "IconClass": "list-alt",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "RecordTemplate",
+                "Alias": "OrderType"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Статус заказа",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 7,
+              "ItemType": "RecordTemplate",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "RecordTemplate",
+              "IconClass": "list-alt",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "RecordTemplate",
+                "Alias": "OrderStatus"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Статус КП",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 6,
+              "ItemType": "RecordTemplate",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "RecordTemplate",
+              "IconClass": "list-alt",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "RecordTemplate",
+                "Alias": "QuoteStatus"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Этап сделки",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 5,
+              "ItemType": "RecordTemplate",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "RecordTemplate",
+              "IconClass": "list-alt",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "RecordTemplate",
+                "Alias": "DealStage"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Источник интереса",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 4,
+              "ItemType": "RecordTemplate",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "RecordTemplate",
+              "IconClass": "list-alt",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "RecordTemplate",
+                "Alias": "LeadSource"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Валюта",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 3,
+              "ItemType": "RecordTemplate",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "RecordTemplate",
+              "IconClass": "list-alt",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "RecordTemplate",
+                "Alias": "Currency"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Город",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 2,
+              "ItemType": "RecordTemplate",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "RecordTemplate",
+              "IconClass": "list-alt",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "RecordTemplate",
+                "Alias": "City"
+              },
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Страна",
+              "Container": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "Undefined"
+              },
+              "Priority": 1,
+              "ItemType": "RecordTemplate",
+              "NavigationType": "SystemNavigation",
+              "ContainerType": "RecordTemplate",
+              "IconClass": "list-alt",
+              "Target": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Type": "RecordTemplate",
+                "Alias": "Country"
+              },
+              "Severity": "None"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
