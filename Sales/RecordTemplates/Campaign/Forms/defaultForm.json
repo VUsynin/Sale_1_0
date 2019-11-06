@@ -110,12 +110,12 @@
                               "Alignment": "Top",
                               "Text": {
                                 "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts",
-                                "En": "Статус",
-                                "De": "Статус",
-                                "Ru": "Статус"
+                                "En": "Активно",
+                                "De": "Активно",
+                                "Ru": "Активно"
                               }
                             },
-                            "FieldType": "Reference",
+                            "FieldType": "Boolean",
                             "Placeholder": {
                               "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts"
                             },
@@ -129,16 +129,21 @@
                                   "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
                                   "Type": "Attribute",
                                   "Owner": "Campaign",
-                                  "Alias": "Status"
+                                  "Alias": "IsActive"
                                 }
                               ]
                             },
-                            "EditorType": "Radio",
+                            "TrueText": {
+                              "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts"
+                            },
+                            "FalseText": {
+                              "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts"
+                            },
+                            "UseTrueFalseText": false,
+                            "EditorType": "Checkbox",
                             "CreationType": "None",
                             "RemovalType": "None",
                             "EditType": "None",
-                            "HideSearchBar": false,
-                            "ShowAsLink": false,
                             "ChildPropertyAlias": {
                               "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
                               "Type": "Undefined"
@@ -160,79 +165,10 @@
                               "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
                               "Type": "Undefined"
                             },
-                            "AllowEdit": false,
                             "GlobalAlias": {
                               "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
                               "Type": "FormComponent",
-                              "Alias": "Status"
-                            },
-                            "AccessType": "Editable",
-                            "Width": 0,
-                            "Type": "FieldComponent"
-                          },
-                          {
-                            "$type": "Comindware.Platform.Contracts.FieldComponentModel, Comindware.Platform.Contracts",
-                            "Label": {
-                              "$type": "Comindware.Platform.Contracts.LabelModel, Comindware.Platform.Contracts",
-                              "Hidden": false,
-                              "Alignment": "Top",
-                              "Text": {
-                                "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts",
-                                "En": "Родительская кампания",
-                                "De": "Родительская кампания",
-                                "Ru": "Родительская кампания"
-                              }
-                            },
-                            "FieldType": "Reference",
-                            "Placeholder": {
-                              "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts"
-                            },
-                            "HelpText": {
-                              "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts"
-                            },
-                            "PropertyPath": {
-                              "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
-                              "$values": [
-                                {
-                                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
-                                  "Type": "Attribute",
-                                  "Owner": "Campaign",
-                                  "Alias": "Parent"
-                                }
-                              ]
-                            },
-                            "EditorType": "Radio",
-                            "CreationType": "None",
-                            "RemovalType": "None",
-                            "EditType": "None",
-                            "HideSearchBar": false,
-                            "ShowAsLink": false,
-                            "ChildPropertyAlias": {
-                              "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
-                              "Type": "Undefined"
-                            },
-                            "OrderPropertyAlias": {
-                              "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
-                              "Type": "Undefined"
-                            },
-                            "NumberPropertyAlias": {
-                              "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
-                              "Type": "Undefined"
-                            },
-                            "PrecedentPropertyAlias": {
-                              "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
-                              "Type": "Undefined"
-                            },
-                            "SortingDirection": "Asc",
-                            "PopupFormAlias": {
-                              "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
-                              "Type": "Undefined"
-                            },
-                            "AllowEdit": false,
-                            "GlobalAlias": {
-                              "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
-                              "Type": "FormComponent",
-                              "Alias": "Parent"
+                              "Alias": "IsActive"
                             },
                             "AccessType": "Editable",
                             "Width": 0,
@@ -305,23 +241,7 @@
                             "AccessType": "Editable",
                             "Width": 0,
                             "Type": "FieldComponent"
-                          }
-                        ]
-                      },
-                      "GlobalAlias": {
-                        "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
-                        "Type": "FormComponent",
-                        "Alias": "VerticalLayout"
-                      },
-                      "AccessType": "Undefined",
-                      "Width": 50,
-                      "Type": "VerticalLayout"
-                    },
-                    {
-                      "$type": "Comindware.Platform.Contracts.VerticalLayoutModel, Comindware.Platform.Contracts",
-                      "Rows": {
-                        "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.FormComponentModel, Comindware.Platform.Contracts]], mscorlib",
-                        "$values": [
+                          },
                           {
                             "$type": "Comindware.Platform.Contracts.FieldComponentModel, Comindware.Platform.Contracts",
                             "Label": {
@@ -330,12 +250,12 @@
                               "Alignment": "Top",
                               "Text": {
                                 "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts",
-                                "En": "Активно",
-                                "De": "Активно",
-                                "Ru": "Активно"
+                                "En": "Статус",
+                                "De": "Статус",
+                                "Ru": "Статус"
                               }
                             },
-                            "FieldType": "Boolean",
+                            "FieldType": "Reference",
                             "Placeholder": {
                               "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts"
                             },
@@ -349,21 +269,16 @@
                                   "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
                                   "Type": "Attribute",
                                   "Owner": "Campaign",
-                                  "Alias": "IsActive"
+                                  "Alias": "Status"
                                 }
                               ]
                             },
-                            "TrueText": {
-                              "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts"
-                            },
-                            "FalseText": {
-                              "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts"
-                            },
-                            "UseTrueFalseText": false,
-                            "EditorType": "Checkbox",
+                            "EditorType": "Radio",
                             "CreationType": "None",
                             "RemovalType": "None",
                             "EditType": "None",
+                            "HideSearchBar": false,
+                            "ShowAsLink": false,
                             "ChildPropertyAlias": {
                               "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
                               "Type": "Undefined"
@@ -385,10 +300,11 @@
                               "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
                               "Type": "Undefined"
                             },
+                            "AllowEdit": false,
                             "GlobalAlias": {
                               "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
                               "Type": "FormComponent",
-                              "Alias": "IsActive"
+                              "Alias": "Status"
                             },
                             "AccessType": "Editable",
                             "Width": 0,
@@ -468,6 +384,88 @@
                               "Alignment": "Top",
                               "Text": {
                                 "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts",
+                                "En": "Дата окончания",
+                                "De": "Дата окончания",
+                                "Ru": "Дата окончания"
+                              }
+                            },
+                            "FieldType": "Date",
+                            "Placeholder": {
+                              "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts"
+                            },
+                            "HelpText": {
+                              "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts"
+                            },
+                            "PropertyPath": {
+                              "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+                              "$values": [
+                                {
+                                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                                  "Type": "Attribute",
+                                  "Owner": "Campaign",
+                                  "Alias": "EndDate"
+                                }
+                              ]
+                            },
+                            "EditorType": "Radio",
+                            "CreationType": "None",
+                            "RemovalType": "None",
+                            "EditType": "None",
+                            "DisplayTime": false,
+                            "ChildPropertyAlias": {
+                              "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                              "Type": "Undefined"
+                            },
+                            "OrderPropertyAlias": {
+                              "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                              "Type": "Undefined"
+                            },
+                            "NumberPropertyAlias": {
+                              "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                              "Type": "Undefined"
+                            },
+                            "PrecedentPropertyAlias": {
+                              "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                              "Type": "Undefined"
+                            },
+                            "SortingDirection": "Asc",
+                            "PopupFormAlias": {
+                              "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                              "Type": "Undefined"
+                            },
+                            "GlobalAlias": {
+                              "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                              "Type": "FormComponent",
+                              "Alias": "EndDate2"
+                            },
+                            "AccessType": "Editable",
+                            "Width": 0,
+                            "Type": "FieldComponent"
+                          }
+                        ]
+                      },
+                      "GlobalAlias": {
+                        "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                        "Type": "FormComponent",
+                        "Alias": "VerticalLayout"
+                      },
+                      "AccessType": "Undefined",
+                      "Width": 50,
+                      "Type": "VerticalLayout"
+                    },
+                    {
+                      "$type": "Comindware.Platform.Contracts.VerticalLayoutModel, Comindware.Platform.Contracts",
+                      "Rows": {
+                        "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.FormComponentModel, Comindware.Platform.Contracts]], mscorlib",
+                        "$values": [
+                          {
+                            "$type": "Comindware.Platform.Contracts.FieldComponentModel, Comindware.Platform.Contracts",
+                            "Label": {
+                              "$type": "Comindware.Platform.Contracts.LabelModel, Comindware.Platform.Contracts",
+                              "Hidden": false,
+                              "Alignment": "Top",
+                              "Text": {
+                                "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts",
                                 "En": "Ответственный",
                                 "De": "Ответственный",
                                 "Ru": "Ответственный"
@@ -523,6 +521,74 @@
                               "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
                               "Type": "FormComponent",
                               "Alias": "Owner"
+                            },
+                            "AccessType": "Editable",
+                            "Width": 0,
+                            "Type": "FieldComponent"
+                          },
+                          {
+                            "$type": "Comindware.Platform.Contracts.FieldComponentModel, Comindware.Platform.Contracts",
+                            "Label": {
+                              "$type": "Comindware.Platform.Contracts.LabelModel, Comindware.Platform.Contracts",
+                              "Hidden": false,
+                              "Alignment": "Top",
+                              "Text": {
+                                "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts",
+                                "En": "Родительская кампания",
+                                "De": "Родительская кампания",
+                                "Ru": "Родительская кампания"
+                              }
+                            },
+                            "FieldType": "Reference",
+                            "Placeholder": {
+                              "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts"
+                            },
+                            "HelpText": {
+                              "$type": "Comindware.Platform.Contracts.LocalizedTextModel, Comindware.Platform.Contracts"
+                            },
+                            "PropertyPath": {
+                              "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+                              "$values": [
+                                {
+                                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                                  "Type": "Attribute",
+                                  "Owner": "Campaign",
+                                  "Alias": "Parent"
+                                }
+                              ]
+                            },
+                            "EditorType": "Radio",
+                            "CreationType": "None",
+                            "RemovalType": "None",
+                            "EditType": "None",
+                            "HideSearchBar": false,
+                            "ShowAsLink": false,
+                            "ChildPropertyAlias": {
+                              "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                              "Type": "Undefined"
+                            },
+                            "OrderPropertyAlias": {
+                              "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                              "Type": "Undefined"
+                            },
+                            "NumberPropertyAlias": {
+                              "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                              "Type": "Undefined"
+                            },
+                            "PrecedentPropertyAlias": {
+                              "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                              "Type": "Undefined"
+                            },
+                            "SortingDirection": "Asc",
+                            "PopupFormAlias": {
+                              "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                              "Type": "Undefined"
+                            },
+                            "AllowEdit": false,
+                            "GlobalAlias": {
+                              "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                              "Type": "FormComponent",
+                              "Alias": "Parent"
                             },
                             "AccessType": "Editable",
                             "Width": 0,

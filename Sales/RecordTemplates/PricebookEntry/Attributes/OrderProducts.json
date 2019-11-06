@@ -14,11 +14,11 @@
   "IsUnique": false,
   "IsIndexed": false,
   "IsTracked": false,
-  "IsDigitGrouping": true,
+  "IsDigitGrouping": false,
   "IsMultiValue": true,
   "IsTitle": false,
   "IsMandatory": false,
-  "IsOwnership": true,
+  "IsOwnership": false,
   "IsCalculated": false,
   "InstanceGlobalAlias": {
     "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",

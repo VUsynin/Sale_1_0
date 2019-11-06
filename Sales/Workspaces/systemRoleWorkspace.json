@@ -160,7 +160,7 @@
                     "Target": {
                       "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
                       "Type": "RecordTemplate",
-                      "Alias": "Deal"
+                      "Alias": "Opportunity"
                     },
                     "Severity": "None"
                   },

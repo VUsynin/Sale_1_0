@@ -1717,7 +1717,7 @@
                     {
                       "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
                       "Type": "Attribute",
-                      "Owner": "Deal",
+                      "Owner": "Opportunity",
                       "Alias": "Name"
                     }
                   ]
@@ -1784,7 +1784,7 @@
                     {
                       "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
                       "Type": "Attribute",
-                      "Owner": "Deal",
+                      "Owner": "Opportunity",
                       "Alias": "TotalOpportunityQuantity"
                     }
                   ]
@@ -1851,7 +1851,7 @@
                     {
                       "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
                       "Type": "Attribute",
-                      "Owner": "Deal",
+                      "Owner": "Opportunity",
                       "Alias": "ExpectedRevenue"
                     }
                   ]

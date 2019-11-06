@@ -14,7 +14,7 @@
   "IsUnique": false,
   "IsIndexed": false,
   "IsTracked": false,
-  "IsDigitGrouping": true,
+  "IsDigitGrouping": false,
   "IsMultiValue": true,
   "IsTitle": false,
   "IsMandatory": false,
@@ -23,7 +23,7 @@
   "InstanceGlobalAlias": {
     "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
     "Type": "Attribute",
-    "Owner": "Deal",
+    "Owner": "Opportunity",
     "Alias": "Contract"
   }
 }
